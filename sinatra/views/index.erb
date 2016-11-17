@@ -1,0 +1,8 @@
+<form action='/' method='post'>
+  <input type='text' name='original_url'></input>
+  <input type='submit'></input>
+</form>
+
+<% unless @shortned_url.nil? %>
+  <h1>http://localhost:9393/<%= @shortned_url %></h1>
+<% end %>
